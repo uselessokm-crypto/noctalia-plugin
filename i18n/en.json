@@ -1,0 +1,30 @@
+{
+  "widget": {
+    "tooltip": "Quick Clip"
+  },
+  "menu": {
+    "settings": "Widget settings"
+  },
+  "panel": {
+    "title": "Quick Clip",
+    "empty": "No snippets yet. Tap + to add one!",
+    "add": "Add Snippet",
+    "copied": "Copied!",
+    "delete-hint": "Drag left to delete",
+    "add-dialog": {
+      "title": "New Snippet",
+      "label": "Label",
+      "label-placeholder": "e.g. My IP Address",
+      "content": "Content",
+      "content-placeholder": "e.g. curl ifconfig.me",
+      "save": "Save",
+      "cancel": "Cancel"
+    }
+  },
+  "settings": {
+    "iconColor": {
+      "label": "Icon color",
+      "desc": "Color of the bar widget icon."
+    }
+  }
+}
