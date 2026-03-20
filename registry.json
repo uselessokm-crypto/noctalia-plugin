@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "plugins": [
+    {
+      "id": "quick-clip",
+      "name": "Quick Clip",
+      "version": "1.0.0",
+      "minNoctaliaVersion": "4.4.1",
+      "official": false,
+      "author": "Akash",
+      "description": "A quick-access panel for favorite commands and text snippets. Click to copy, add new entries, and drag to delete.",
+      "repository": "https://github.com/uselessokm-crypto/noctalia-plugin",
+      "license": "MIT",
+      "tags": [
+        "Bar",
+        "Panel",
+        "Utility",
+        "Productivity"
+      ],
+      "lastUpdated": "2026-03-20T15:26:00Z"
+    }
+  ]
+}
