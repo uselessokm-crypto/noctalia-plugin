@@ -1,0 +1,18 @@
+{
+  "widget": {
+    "tooltip": "App Launcher"
+  },
+  "menu": {
+    "settings": "Widget settings"
+  },
+  "panel": {
+    "title": "App Launcher",
+    "empty": "No apps configured. Open settings to add one!"
+  },
+  "settings": {
+    "iconColor": {
+      "label": "Icon color",
+      "desc": "Color of the bar widget icon."
+    }
+  }
+}

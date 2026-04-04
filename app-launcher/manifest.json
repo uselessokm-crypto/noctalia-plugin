@@ -1,0 +1,42 @@
+{
+  "id": "app-launcher",
+  "name": "App Launcher",
+  "version": "1.0.0",
+  "minNoctaliaVersion": "3.6.0",
+  "author": "Akash",
+  "license": "MIT",
+  "repository": "https://github.com/uselessokm-crypto/noctalia-plugin",
+  "description": "Quick-access panel for launching apps with multi-command sequences from the bar",
+  "tags": ["Bar", "Panel", "Utility"],
+  "entryPoints": {
+    "main": "Main.qml",
+    "barWidget": "BarWidget.qml",
+    "panel": "Panel.qml",
+    "settings": "Settings.qml"
+  },
+  "dependencies": {
+    "plugins": []
+  },
+  "metadata": {
+    "defaultSettings": {
+      "iconColor": "primary",
+      "apps": [
+        {
+          "name": "ComfyUI",
+          "icon": "applications-graphics",
+          "commands": [
+            "cd ~/comfyui && source venv/bin/activate",
+            "python main.py"
+          ]
+        },
+        {
+          "name": "Terminal",
+          "icon": "terminal",
+          "commands": [
+            "wezterm"
+          ]
+        }
+      ]
+    }
+  }
+}
