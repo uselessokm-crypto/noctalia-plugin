@@ -1,6 +1,23 @@
+# Wrote noctallia/registry.json
 {
   "version": 1,
   "plugins": [
+    {
+      "id": "app-launcher",
+      "name": "App Launcher",
+      "version": "1.0.0",
+      "minNoctaliaVersion": "3.6.0",
+      "official": false,
+      "author": "Akash",
+      "description": "Quickly launch your custom applications with icons from the launcher",
+      "repository": "https://github.com/uselessokm-crypto/noctalia-plugin",
+      "license": "MIT",
+      "tags": [
+        "Launcher",
+        "Utility"
+      ],
+      "lastUpdated": "2026-04-04T00:00:00Z"
+    },
     {
       "id": "quick-clip",
       "name": "Quick Clip",
